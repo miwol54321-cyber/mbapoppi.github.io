@@ -38,7 +38,7 @@
       align-items: center;
       justify-content: center;
       font-size: 44px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     }
 
     h1 {
@@ -61,7 +61,7 @@
       text-decoration: none;
       color: #222;
       background: linear-gradient(135deg, #ffd8e6, #fff1bf);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.09);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.09);
       transition: transform 0.2s ease;
     }
 
@@ -78,6 +78,58 @@
 
     .featured strong {
       font-size: 20px;
+    }
+
+    .today h2 {
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+
+    .today h3 {
+      margin: 18px 0 0;
+      font-size: 22px;
+    }
+
+    .video-thumb {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 15px 0 30px;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    }
+
+    .product-photo {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    }
+
+    .rating {
+      margin: 10px 0 20px;
+      font-size: 22px;
+    }
+
+    .buy-btn {
+      display: block;
+      margin-top: 20px;
+      padding: 18px;
+      border-radius: 15px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background: #ff5a5f;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 0.25s;
+    }
+
+    .buy-btn:hover {
+      background: #e94b50;
+      transform: translateY(-2px);
     }
 
     .category {
@@ -97,8 +149,8 @@
       text-align: center;
       text-decoration: none;
       color: #333;
-      background: rgba(255,255,255,0.88);
-      box-shadow: 0 8px 22px rgba(0,0,0,0.07);
+      background: rgba(255, 255, 255, 0.88);
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
       font-weight: bold;
       line-height: 1.5;
       transition: transform 0.2s ease;
@@ -124,63 +176,12 @@
       margin-top: 28px;
       padding: 16px;
       border-radius: 18px;
-      background: rgba(255,255,255,0.72);
+      background: rgba(255, 255, 255, 0.72);
       font-size: 12px;
       line-height: 1.6;
       color: #777;
     }
   </style>
-
-.video-thumb{
-width:100%;
-border-radius:18px;
-margin:15px 0 30px;
-box-shadow:0 8px 25px rgba(0,0,0,.12);
-}
-
-.product-photo{
-width:100%;
-border-radius:18px;
-margin:15px 0;
-box-shadow:0 8px 25px rgba(0,0,0,.12);
-}
-
-.today h2{
-margin-top:35px;
-margin-bottom:15px;
-}
-
-.today h3{
-margin-top:18px;
-font-size:22px;
-}
-
-.rating{
-font-size:22px;
-margin:10px 0 20px;
-}
-
-.buy-btn{
-display:block;
-text-align:center;
-background:#ff5a5f;
-color:#fff;
-padding:18px;
-border-radius:15px;
-font-weight:bold;
-font-size:20px;
-text-decoration:none;
-margin-top:20px;
-transition:.25s;
-}
-
-.buy-btn:hover{
-background:#e94b50;
-transform:translateY(-2px);
-}
-
-
-
 </head>
 
 <body>
@@ -195,34 +196,38 @@ transform:translateY(-2px);
       </p>
     </section>
 
-   
-<section class="today">
+    <section class="today">
 
-<h2>🐶 오늘 영상</h2>
+      <h2>🐶 오늘 영상</h2>
 
-<img src="images/cookies.png" class="video-thumb">
+      <img
+        src="images/cookies.png"
+        class="video-thumb"
+        alt="오늘 영상 썸네일"
+      >
 
-<h2>⭐ 오늘 사용한 상품</h2>
+      <h2>⭐ 오늘 사용한 상품</h2>
 
-<img src="images/sanyangmilk.jpg" class="product-photo">
+      <img
+        src="images/sanyangmilk.jpg"
+        class="product-photo"
+        alt="산양우유 쿠키 상품 사진"
+      >
 
-<h3>산양우유 쿠키</h3>
+      <h3>산양우유 쿠키</h3>
 
-<div class="rating">⭐⭐⭐⭐⭐</div>
+      <div class="rating">⭐⭐⭐⭐⭐</div>
 
-<a class="buy-btn"
-href="https://link.coupang.com/a/네쿠팡링크"
-target="_blank">
+      <a
+        class="buy-btn"
+        href="https://link.coupang.com/a/https://link.coupang.com/a/fptsqrQirc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        🛒 쿠팡에서 구매하기
+      </a>
 
-🛒 쿠팡에서 구매하기
-
-</a>
-
-</section>
-
-
-
-
+    </section>
 
     <section class="category">
       <a class="button" href="#">🐶<br>강아지 간식 & 용품</a>
@@ -231,7 +236,7 @@ target="_blank">
       <a class="button" href="#">👜<br>생활 추천템</a>
     </section>
 
-    <a class="youtube" href="#" target="_blank">
+    <a class="youtube" href="#" target="_blank" rel="noopener noreferrer">
       📺 유튜브 구독하기
     </a>
 
